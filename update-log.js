@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 版本号和URL
     const versionNumber = "1.0.0_OSA"; 
-    const downloadLink = "https://example.com/download/usf-log-plus-1.0.5.zip"; 
+    const downloadLink = "https://usf-api.zuyst.top/USFLog-Plus/1.0.0_OSA.zip"; 
 
     // 日志内容
     const updateLogs = [
