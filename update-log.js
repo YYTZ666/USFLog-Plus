@@ -1,10 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // 版本号和URL
-    const versionNumber = "1.0.0_OSA"; 
-    const downloadLink = "https://usf-api.zuyst.top/USFLog-Plus/1.0.0_OSA.zip"; 
+    // 最新版本
+    const versionNumber = "1.0.5_OSA"; 
+    const downloadLink = "https://usf-api.zuyst.top/USFLog-Plus/1.0.5_OSA.zip"; 
 
     // 更新日志内容 - 使用对象数组来包含版本信息和内容
     const updateLogs = [
+        {
+            version: "1.0.5_OSA",
+            date: "2025-02-03",
+            changes: [
+                "全通道HTTPS支持。",
+                "容器操作记录新增开箱者名字，操作记录将同时存到日期根目录和玩家根目录下。",
+                "优化空间压缩功能。",
+                "完善了调试信息支持。",
+                "聊天API支持携带密钥推送。"
+            ]
+        },
         {
             version: "1.0.0_OSA",
             date: "2025-01-28",
