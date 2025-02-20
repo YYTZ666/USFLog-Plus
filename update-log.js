@@ -1,10 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 最新版本
-    const versionNumber = "1.0.5_OSA"; 
-    const downloadLink = "https://usf-api.zuyst.top/USFLog-Plus/1.0.5_OSA.zip"; 
+    const versionNumber = "1.0.8_OSA"; 
+    const downloadLink = "https://usf-api.zuyst.top/USFLog-Plus/1.0.8_OSA.zip"; 
 
     // 更新日志内容 - 使用对象数组来包含版本信息和内容
     const updateLogs = [
+        {
+            version: "1.0.8_OSA",
+            date: "2025-02-20",
+            changes: [
+                "修复了聊天消息无法推送到HTTPS服务器的问题",
+                "新增Cumu.log，存储当日各类型数据数量（重启程序计数将清零）",
+                "现在，单条日志格式会变成规范化的json格式，为1.1版本的前端功能做好充足准备",
+                "修复了启动时间及启动用户及历史启动时间错误输出的问题",
+                "修复了一些bug，提高程序稳定性"
+            ]
+        },
         {
             version: "1.0.5_OSA",
             date: "2025-02-03",
