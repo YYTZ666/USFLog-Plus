@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 最新版本
-    const versionNumber = "1.0.8_OSA"; 
-    const downloadLink = "https://usf-api.zuyst.top/USFLog-Plus/1.0.8_OSA.zip"; 
+    const versionNumber = "暂时停更并且不推荐食用"; 
+    const downloadLink = "#"; 
 
     // 更新日志内容 - 使用对象数组来包含版本信息和内容
     const updateLogs = [
